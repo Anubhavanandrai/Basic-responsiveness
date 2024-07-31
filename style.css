@@ -32,13 +32,19 @@ html,body{
     position: absolute;
     bottom:20%;
     color: antiquewhite;
-   padding: 0vw 10vw;
+   padding: 0vw 7vw;
    font-size: 1.5vw;
    font-weight: 700;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   gap:4px;
    
+}
+
+.overlay-content span{
+    color: aqua;
+    font-size:35px;
 }
 .textc{
     display: flex;
@@ -46,6 +52,8 @@ html,body{
     justify-content: space-between;
    align-items: center;
    gap:2vw;
+
+
 }
 .overlay-content p{
     font-size: 1.4vw;
@@ -103,13 +111,13 @@ html,body{
 }
 
 @media screen and (max-width: 500px){
-    .overlay .overlay-content{ 
+    .overlay-content{ 
         display:flex;
         flex-direction:column;
         align-items: flex-start;
-        font-size: 8vw;
+        font-size: 2vw;
         position: absolute;
-        top:20%;
+        top:15%;
         
     }
     .overlay{
@@ -120,11 +128,11 @@ html,body{
         display:flex;
         flex-direction:column;
         position: absolute;
-        top:calc(100% - 60%);     
+        top:calc(100% - 80%);     
     }
 
     .textc p{
-        font-size: 6vw;
+        font-size: 2vw;
     }
     .icondiv i{
         margin-top: 9px;;

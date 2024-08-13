@@ -1,4 +1,4 @@
-const arr= ["Furniture","Future"];
+const arr= ["Shivam","Future","ganga"];
 let index=0;
 
 
